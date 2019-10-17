@@ -13,4 +13,22 @@
   top: 40%;
   background-color: white;
   border-radius: 20px;
+  border: 1px solid black;
+}
+
+@media (max-width:1370px) {
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:970px) {
+  h2{
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
 }
