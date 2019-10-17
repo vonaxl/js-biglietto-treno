@@ -1,1 +1,16 @@
-
+.box{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/negozio.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+.txt{
+  position: absolute;
+  right: 25%;
+  top: 40%;
+  background-color: white;
+  border-radius: 20px;
+}
