@@ -28,6 +28,9 @@ nav{
 nav img{
   width: 70px;
 }
+nav .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: inherit;
+}
 /* header section */
 #welcomehead{
   background-image: url("../img/headerbg.jpg");
