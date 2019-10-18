@@ -19,7 +19,7 @@ h2{
   border: #66fcf1;
   color: #66fcf1;
 }
-/* universal class */
+/* / universal class */
 /* header  */
 /* nav */
 nav{
@@ -53,24 +53,28 @@ article #esercizio{
   background-color: #0B0C10;
 }
 article #jstreno{
-  height: 70vh;
   background-image: url("../img/trainbh.jpg");
   background-position: center;
   background-size: contain;
   background-color: #0B0C10;
+  padding: 7% 0;
 }
 
 #jstreno #info{
-  background-color: #c5c6c7;
+  background-color: #0B0C10;
   border: 2px solid black;
   border-radius: 15px;
-  height: 70%;
+}
+#jstreno #info .form-control{
+  width: 100%;
+  margin: 1rem auto;
 }
 #jstreno #tickety{
-  background-color: #c5c6c7;
+  background-color: #0B0C10;
   border: 2px solid black;
   border-radius: 15px;
   height: 30%;
+  margin-top: 1rem;
 }
 footer{
   background: #0B0C10;

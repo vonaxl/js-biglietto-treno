@@ -19,7 +19,7 @@
               </a>
             </div>
             <div class="col text-right">
-              <ul class="list-inline flex-nowrap">
+              <ul class="list-inline d-flex flex-nowrap justify-content-end">
                 <li class="list-inline-item"><a class="btn btn-outline-dark" href="#">Home</a></li>
                 <li class="list-inline-item"><a class="btn btn-outline-dark" href="#">Skills</a></li>
                 <li class="list-inline-item"><a class="btn btn-outline-dark" href="#">Projects</a> </li>
@@ -47,15 +47,41 @@
           <div class="txtbox">
             <h1>Esercizio "Calcolo costo biglietto" con Javascript</h1>
           </div>
-
         </div>
       </div>
-      <section id="jstreno" class="row justify-content-center align-self-center pads">
-        <div id="info" class="col-12 col-md-7 pads">
-          asds
+      <section id="jstreno" class="row justify-content-around ">
+        <div id="info" class="col-12 col-md-7 pads align-self-center">
+          <form class="form-inline row justify-content-around pads">
+            <div class="txtbox col-12">
+              <h2 class=>Documentazione</h2>
+              <p>Il prezzo del biglietto è definito<br> in base ai km (0.21 €cent al km)<br>
+               ma c’è uno sconto del 20% per <br>i minorenni
+               e del 40% per gli over 65</p>
+            </div>
+
+            <div class="form-group col-5 align-self-center">
+               <input type="text" class="form-control" id="nomeInput" placeholder="Inserisci il tuo nome">
+            </div>
+            <div class="form-group  col-5 align-self-center">
+               <input type="text" class="form-control" id="cognomeInput" placeholder="Inserisci il tuo cognome">
+            </div>
+            <div class="form-group  col-5 align-self-center">
+               <input type="number" class="form-control" id="destInput" placeholder="Inserisci i km della tua destinazione">
+            </div>
+            <div class="form-group  col-5 align-self-center">
+               <input type="number" class="form-control" id="etaInput" placeholder="Inserisci la tua Eta">
+            </div>
+            <a class="btn btn-primary align-self-center col-3" href="#tickety" onclick="acquista()">Acquista</a>
+          </form>
         </div>
-        <div id="tickety" class="col-12 col-md-3 align-self-center">
-          asdasd
+        <div id="tickety" class="col-12 col-md-3 align-self-center ">
+          <div class="txtbox">
+            <h2>Biglietto : € <span id="cPrezzo"></span> </h2>
+            <h6><span id="cNome"></span> <span id="cCognome"></span></h6>
+            <h6>Eta : <span id="cEta"></span> anni</h6>
+            <h6>Destinazion : <span id="cKm"></span> km</h6>
+          </div>
+
         </div>
       </section>
     </article>
@@ -75,6 +101,6 @@
       </div>
 
     </footer>
-    <!-- <script src="assets/js/myscript.js" charset="utf-8"></script> -->
+    <script src="assets/js/myscript.js" charset="utf-8"></script>
   </body>
 </html>
