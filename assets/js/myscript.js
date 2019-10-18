@@ -1,4 +1,4 @@
-// chiedi il numero di chilometri e eta
+
 var prezzB, nome, cognome, chilometri, eta;
 
 function acquista() {
@@ -25,7 +25,6 @@ function acquista() {
   }
   var decimal = prezzoB.toFixed(2);
   console.log("il prezzo del biglieto è "+decimal);
-
    document.getElementById("cPrezzo").innerHTML = decimal;
    document.getElementById("cNome").innerHTML = nome;
    document.getElementById("cCognome").innerHTML = cognome;
