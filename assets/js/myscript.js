@@ -8,16 +8,14 @@ var prezzoB;
 // condizione se eta è soppra 65 anni allora -40%
 if (eta>65) {
   prezzoB = ((0.21 * chilometri) * .60);
-  var decimal = prezzoB.toFixed(2);
 }
 // condizione se eta è sotto 18 anni allora -20%
 else if(eta<=17) {
   prezzoB = ((0.21 * chilometri) * .80);
-  decimal = prezzoB.toFixed(2);
 }
 // se no allora prezzo intero
 else {
   prezzoB = (0.21 * chilometri);
-  decimal = prezzoB.toFixed(2);
 }
+var decimal = prezzoB.toFixed(2);
 document.getElementById('cprezzo').innerHTML = "€"+decimal;
