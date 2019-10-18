@@ -1,34 +1,95 @@
-.box{
-  width: 100%;
-  height: 100vh;
-  background-image: url(../img/negozio.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: fixed;
+/* general rules  */
+body{
+  color: #c5c6c7;
 }
-.txt{
+ul{
+  margin: 0;
+}
+h1{
+  color: #66fcf1;
+}
+h2{
+  color: #45a29e;
+}
+/* universal class */
+.pads {
+  padding: 1rem;
+}
+.btn{
+  border: #66fcf1;
+  color: #66fcf1;
+}
+/* universal class */
+/* header  */
+/* nav */
+nav{
+  background-color: #0B0C10;
+}
+nav img{
+  width: 70px;
+}
+/* header section */
+#welcomehead{
+  background-image: url("../img/headerbg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #c5c6c7;
+  height: 70vh;
+  position: relative;
+}
+#welcomehead .shadow{
+  background: rgba(20, 30, 32, 0.92);
+  width: 100%;
+  height: 70vh;
   position: absolute;
-  right: 25%;
-  top: 45%;
-  background-color: white;
-  border-radius: 20px;
-  border: 1px solid black;
+}
+#welcomehead .txtbox{
+  width: 35%;
+  left: 10%;
+  bottom: 20%;
+  position: absolute;
+}
+article #esercizio{
+  background-color: #0B0C10;
+}
+article #jstreno{
+  height: 70vh;
+  background-image: url("../img/trainbh.jpg");
+  background-position: center;
+  background-size: contain;
+  background-color: #0B0C10;
 }
 
-@media (max-width:1370px) {
-  h2{
-    font-size: 1.5rem;
-  }
-  h3{
-    font-size: 1.5rem;
-  }
+#jstreno #info{
+  background-color: #c5c6c7;
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 70%;
 }
-@media (max-width:970px) {
-  h2{
-    font-size: 1.2em;
-  }
-  h3{
-    font-size: 1.2rem;
-  }
+#jstreno #tickety{
+  background-color: #c5c6c7;
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 30%;
 }
+footer{
+  background: #0B0C10;
+}
+
+footer ul li i{
+  color: #66fcf1;
+  margin: 1rem 3rem;
+  font-size: 3rem;
+}
+footer ul li i:hover{
+  margin: 1rem 3rem;
+  font-size: 2.7rem;
+}
+
+/* palettes
+ #0B0C10
+ #1F2833
+ #c5c6c7
+ #66fcf1
+ #45a29e
+ */
